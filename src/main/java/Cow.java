@@ -38,4 +38,3 @@ public class Cow implements Drivable, Domesticatable, Tradable {
         }
     }
 
-}
