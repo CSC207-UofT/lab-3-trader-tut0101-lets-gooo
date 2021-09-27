@@ -13,7 +13,6 @@ public class Trader {
     private ArrayList<Tradable> wishlist;
     private int money;
 
-
     /**
      * Construct a Trader, randomly giving them both an inventory and
      * a wishlist using the items in item_list.
