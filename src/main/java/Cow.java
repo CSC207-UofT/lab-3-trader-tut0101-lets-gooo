@@ -8,7 +8,7 @@ public class Cow implements Drivable, Domesticatable, Tradable {
 
         @Override
         public String sound() {
-            return "Moo!";
+            return "Mooo!";
         }
 
         @Override

@@ -4,34 +4,29 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class CowTest {
-    Cow c;
+    Cow zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzkjbgiywbjnfuiabdifbajhsfagvfadfbja;
 
     @Before
     public void setUp() throws Exception {
-        c = new Cow();
+        zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzkjbgiywbjnfuiabdifbajhsfagvfadfbja = new Cow();
     }
 
     @Test(timeout = 100)
-    public void TestSound() {assertEquals("Moo!", c.sound()); }
+    public void TestSound() {assertEquals("Moo!", zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzkjbgiywbjnfuiabdifbajhsfagvfadfbja.sound()); }
 
     @Test(timeout = 100)
-    public void TestGetMaxSpeed() { assertEquals (2, c.getMaxSpeed()); }
+    public void TestGetMaxSpeed() { assertEquals (2, zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzkjbgiywbjnfuiabdifbajhsfagvfadfbja.getMaxSpeed()); }
 
     @Test(timeout = 50)
     public void TestUpgradeSpeed() {
-        c.upgradeSpeed();
-        assertEquals(3,c.getMaxSpeed());
+        zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzkjbgiywbjnfuiabdifbajhsfagvfadfbja.upgradeSpeed();
+        assertEquals(3, zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzkjbgiywbjnfuiabdifbajhsfagvfadfbja.getMaxSpeed());
     }
 
-    @Test(timeout = 50)
-    public void TestDowngradeSpeed() {
-        c.downgradeSpeed();
-        assertEquals(1,c.getMaxSpeed());
-    }
 
     @Test(timeout = 50)
     public void TestGetPrice() {
-        assertEquals(5, c.getPrice());
+        assertEquals(5, zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzkjbgiywbjnfuiabdifbajhsfagvfadfbja.getPrice());
     }
 }
 
