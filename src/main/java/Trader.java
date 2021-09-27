@@ -13,13 +13,16 @@ public class Trader {
     private ArrayList<Tradable> wishlist;
     private int money;
 
-
+    /**
+     * My first comment!
+     */
     /**
      * Construct a Trader, randomly giving them both an inventory and
      * a wishlist using the items in item_list.
      *
      * @param item_list A List of Tradable objects that may be placed in
      *                  either this Trader's inventory or wishlist.
+     *
      */
     public Trader(List<Tradable> item_list) {
         // Select a random number between [20, 120) for money
